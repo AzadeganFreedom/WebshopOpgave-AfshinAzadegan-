@@ -12,6 +12,7 @@
             //customer.Login();
 
             Menu menu = new Menu();
+            menu.Customer = new Customer() { CustomerFirstName = "John", CustomerLastName = "Doe"};
             while (true)
             {
                 menu.MainMenu();
